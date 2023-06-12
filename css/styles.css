@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  text-align: justify;
+}
+/* CSS cho thong tin ca nhan cua CV */
+.CV {
+  margin: 40px;
+  position: relative;
+}
+#target {
+  margin: 40px;
+}
+/* tao khoi cho thong tin ca nhan */
+.personal-information {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+}
+
+.personal-information h1 {
+  color: #0e2452;
+}
+/* chinh bang */
+.table-personal-information {
+  text-align: left;
+}
+
+.table-personal-information tr {
+  height: 30px;
+}
+#properties {
+  width: 100px;
+}
+/* hinh anh dai dien */
+.img-personal-information {
+  padding: 2px 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  display: inline-block;
+  width: 113px;
+  /* height: 237px; */
+  height: 100%;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.img-personal-information img {
+  width: 100%;
+}
+/* CSS cho tieu de */
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+/* CSS cho noi dung */
+.secction-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.time-line {
+  margin-left: 20px;
+  position: relative;
+}
+.time-line::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: gray;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  margin-left: -10px;
+}
+.time {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  vertical-align: top;
+}
+.work {
+  display: inline-block;
+  width: 500px;
+}
+.content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted gray;
+}
+.period {
+  position: relative;
+}
+.period::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  margin-left: -15px;
+  background-color: black;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.list {
+  padding-left: 20px;
+}
+.job-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.infor:link,
+.infor:visited {
+  text-decoration: none;
+}
+.infor:hover {
+  color: red;
+}
